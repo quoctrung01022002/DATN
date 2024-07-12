@@ -1,0 +1,123 @@
+/* CSS cho bảng */
+.table {
+  border-collapse: collapse;
+  width: auto;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+/* CSS cho hình ảnh nhỏ */
+.small-image {
+  width: 80px;
+  height: auto;
+}
+
+/* CSS cho icon */
+.btn-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+/* CSS cho phân trang */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.pagination li {
+  margin-right: 5px;
+}
+
+.pagination button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+/* CSS cho container chứa các nút và ô tìm kiếm */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* CSS cho container chứa icon */
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+/* CSS cho các nút trong container icon */
+.icon-container button {
+  margin-right: 10px;
+}
+
+/* CSS cho nút cuối cùng trong container icon */
+.icon-container button:last-child {
+  margin-right: 0;
+}
+
+/* CSS cho container chứa input và icon search */
+.search-container {
+  position: relative;
+  padding : 10px;
+}
+
+/* CSS cho input search */
+.search-input {
+  width: calc(100% - 40px);
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* CSS cho icon search */
+.search-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10px;
+  height: 50%;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+/* CSS cho khi di chuột qua icon search */
+.search-icon:hover {
+  background-color: #0056b3;
+}
+.table-wrapper {
+  overflow-x: auto;
+  height: 100%;
+}

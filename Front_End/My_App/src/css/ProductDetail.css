@@ -1,0 +1,52 @@
+/* Container */
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Comments */
+.comments-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Comment */
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Reply */
+.reply {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* Add comment input */
+.add-comment-input {
+  margin-bottom: 10px;
+}
+
+/* Add comment button */
+.add-comment-btn {
+  margin-bottom: 10px;
+}
+
+/* Reply input */
+.reply-input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Reply button */
+.reply-btn {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,61 @@
+/* RegisterForm.css */
+.register-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-image: url(../assets/7800571.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(245, 245, 245, 0.8); /* Sử dụng màu trong suốt */
+}
+
+.register-form-wrapper {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* Màu nền trong suốt */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Căn giữa các phần tử bên trong theo chiều ngang */
+}
+
+.register-form-group {
+  margin-bottom: 20px;
+}
+
+.register-input-group {
+  display: flex;
+  align-items: center;
+}
+
+.register-input-group-prepend,
+.register-input-group-append {
+  padding: 0 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.register-input-group-text {
+  background-color: transparent;
+  border-right: none;
+}
+
+.register-form-control {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.register-btn-block {
+  display: inline-block; /* Sử dụng inline-block để nút chỉ mở rộng đủ để hiển thị nội dung */
+  width: auto; /* Đảm bảo nút chỉ có độ rộng cần thiết */
+  padding: 12px;
+}
+
+.register-btn-link {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+}

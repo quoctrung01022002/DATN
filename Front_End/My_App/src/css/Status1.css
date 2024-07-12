@@ -1,0 +1,129 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.order-list-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.order-list-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* List of Orders */
+.order-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Single Order */
+.order-item {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+/* Order Information */
+.order-info {
+  margin-bottom: 20px;
+}
+
+.order-info p {
+  margin: 5px 0;
+}
+
+/* Order Heading */
+.order-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Order Details */
+.order-details {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-details li {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Receive Order Button */
+.receive-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.receive-button:hover {
+  background-color: #0056b3;
+}
+
+/* Ship and Return Buttons */
+.ship-button,
+.return-button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ship-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.return-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.ship-button:hover, 
+.return-button:hover {
+  background-color: #333;
+}
+
+/* Product Image Container */
+.product-image-container {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Table Formatting */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table td[colspan="4"] {
+  text-align: right;
+}

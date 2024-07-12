@@ -1,0 +1,54 @@
+.resend-and-verify-otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../assets/7800571.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.resend-and-verify-otp-form {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.login-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-input-container input {
+  flex: 1;
+  padding: 10px;
+}
+
+.resend-otp-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+.resend-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}

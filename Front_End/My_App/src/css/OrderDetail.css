@@ -1,0 +1,68 @@
+/* Style cho container chính */
+.order-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc; /* Thêm viền cho container */
+  border-radius: 5px; /* Bo tròn góc cho container */
+}
+
+/* Style cho tiêu đề */
+.order-detail-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; /* Màu chữ cho tiêu đề */
+}
+
+/* Style cho thông tin đơn hàng */
+.order-info-order {
+  margin-bottom: 20px;
+}
+
+.order-info-order p {
+  margin: 5px 0;
+}
+
+/* Style cho danh sách sản phẩm */
+.order-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-items li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px; /* Bo tròn góc cho từng sản phẩm */
+}
+
+.order-items li:last-child {
+  margin-bottom: 0;
+}
+
+/* Style cho thông tin sản phẩm */
+.product-info {
+  font-weight: bold;
+  color: #555; /* Màu chữ cho thông tin sản phẩm */
+}
+
+/* Style cho số lượng và giá */
+.quantity-price-order {
+  font-style: italic;
+}
+
+/* Style cho giá giảm khi có discount */
+.quantity-price-order span:last-child {
+  color: #ff0000; /* Màu đỏ cho giá giảm khi có discount */
+  font-weight: bold;
+  margin-left: 5px; /* Khoảng cách giữa giá gốc và giá giảm */
+}
+
+/* Style cho tổng giá */
+.total-price {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333; /* Màu chữ cho tổng giá */
+}

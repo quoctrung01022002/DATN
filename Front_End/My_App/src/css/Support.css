@@ -1,0 +1,20 @@
+.sendMessageContainer {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.messageList {
+  list-style: none;
+  padding: 0;
+}
+
+.messageList li {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.formContainer {
+  margin-top: 20px;
+}

@@ -1,0 +1,59 @@
+/* Navbar.css */
+.logo {
+  width: 100px; /* Điều chỉnh kích thước của logo */
+  height: auto;
+}
+
+@media screen and (width: 1536px) {
+  #buttontoogle {
+    display: block !important;
+  }
+  #navcontainer {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: block !important;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-grow: 0 !important;
+  }
+  #navcontainer {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+  }
+  .navbar-expand-lg {
+    display: flex !important;
+    flex-direction: row !important;
+    height: auto !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+  }
+  .navbar-toggler {
+    position: relative;
+    top: -143px;
+  }
+}
+
+/* Navbar.css */
+.collapsed .navbar-collapse {
+  display: none;
+}
+
+.expanded .navbar-collapse {
+  display: block;
+}
+
+#buttontoogle:active {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}

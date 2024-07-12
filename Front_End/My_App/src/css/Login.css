@@ -1,0 +1,89 @@
+/* LoginForm.css */
+.login-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(245, 245, 245, 0.8);
+  background-image: url(../assets/7800571.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.login-form-wrapper {
+  width: 400px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9); /* Màu trắng với độ mờ 90% */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-form-group {
+  margin-bottom: 20px;
+}
+
+.login-input-group {
+  position: relative;
+  display: flex; /* Đảm bảo icon và input nằm cùng 1 hàng */
+  align-items: center; /* Căn giữa dọc cho icon và input */
+}
+
+.login-input-group-prepend,
+.login-input-group-append {
+  padding: 0 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.login-input-group-text {
+  background-color: transparent;
+  border-right: none;
+}
+
+.login-form-control {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.login-btn-primary {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Màu nền cho nút */
+  color: #fff; /* Màu chữ cho nút */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn-link {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  color: #007bff; /* Màu chữ cho nút */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn-toggle-password {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
+@media (max-width: 576px) {
+  .login-form-wrapper {
+    padding: 20px;
+  }
+}

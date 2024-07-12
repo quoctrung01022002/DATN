@@ -1,0 +1,75 @@
+.verify-otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(245, 245, 245, 0.8); /* Màu xám nhạt với độ mờ 80% */
+  background-image: url(../assets/7800571.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.verify-otp-title {
+  margin-bottom: 20px;
+}
+
+.verify-otp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgba(204, 204, 204, 0.5); /* Màu xám nhạt với độ mờ 50% */
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9); /* Màu trắng với độ mờ 90% */
+}
+
+.verify-otp-form label {
+  margin-bottom: 10px;
+}
+
+.verify-otp-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.verify-otp-input-icon {
+  margin-right: 10px; /* Khoảng cách giữa icon và input */
+}
+
+.verify-otp-form input {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.verify-otp-submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.verify-otp-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.verify-otp-resend-link,
+.verify-otp-back-link {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.verify-otp-resend-link:hover,
+.verify-otp-back-link:hover {
+  text-decoration: underline;
+}
+
+.verify-otp-error-message {
+  color: red;
+  margin-top: 10px;
+}

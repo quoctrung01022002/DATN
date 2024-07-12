@@ -1,0 +1,32 @@
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-card {
+  width: calc(33.33% - 20px); /* 3 cards per row with some margin */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.post-card h2 {
+  margin-top: 0;
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.post-card p {
+  margin: 10px 0;
+}
+
+.post-card p:last-child {
+  margin-bottom: 0;
+}
